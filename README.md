@@ -1,2 +1,3 @@
-# viaCEP-integracao-PHP-e-JavaScript
- Integração da API viaCEP em PHP e também em JavaScript
+# viaCEP-PHP-e-JavaScript
+
+ Integração com a API **viaCEP.com.br** em PHP e JavaScript.

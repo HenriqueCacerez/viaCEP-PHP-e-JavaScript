@@ -12,10 +12,11 @@
     <!-- HTML --->
     <div class="container">
         <form class="box" onsubmit="return false">
+            
             <h1>viaCEP</h1>
-            <p>integração com a API da <a href="https://viacep.com.br/" target="_blank">viaCEP</a></p>
+            <p>integração com a API <a href="https://viacep.com.br/" target="_blank">viaCEP</a></p>
 
-            <input type="text" id="CEP" placeholder="CEP" required>
+            <input type="number" id="CEP" placeholder="ex: 58010720" required>
             <button id="btn-pesquisar">Pesquisar</button>
 
             <!-- Resultado da Pesquisa -->
@@ -32,8 +33,7 @@
     </div>
     <!--*/ HTML --->
 
-    <script src="assets/jquery.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
     <script src="assets/viaCEP.js"></script>
-
 </body>
 </html>
