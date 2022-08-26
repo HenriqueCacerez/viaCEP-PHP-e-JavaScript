@@ -1,0 +1,17 @@
+* {
+    font-family: Arial, Helvetica, Tahoma, Verdana;
+}
+
+h1 {
+    text-align: center;
+}
+
+.d-none {
+    display: none;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}

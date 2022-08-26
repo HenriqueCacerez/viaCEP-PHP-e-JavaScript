@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>viaCEP - JavaScript</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+    <!-- HTML --->
+    <div class="container">
+        <form class="box" onsubmit="return false">
+            <h1>viaCEP</h1>
+            <p>integração com a API da <a href="https://viacep.com.br/" target="_blank">viaCEP</a></p>
+
+            <input type="text" id="CEP" placeholder="CEP" required>
+            <button id="btn-pesquisar">Pesquisar</button>
+
+            <!-- Resultado da Pesquisa -->
+            <div id="resultado-viaCEP" class="d-none">
+                <p>Cidade: <b id="viacep-cidade"></b></p>
+                <p>Endereço: <b id="viacep-logradouro"></b></p>
+                <p>Bairro: <b id="viacep-bairro"></b></p>
+                <p>Estado: <b id="viacep-estado"></b></p>
+                <p id="viacep-gmaps"></p>
+            </div>
+            <!--*/ Resultado da Pesquisa -->
+
+        </form>
+    </div>
+    <!--*/ HTML --->
+
+    <script src="assets/jquery.js"></script>
+    <script src="assets/viaCEP.js"></script>
+
+</body>
+</html>
