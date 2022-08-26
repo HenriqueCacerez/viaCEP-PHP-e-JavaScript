@@ -28,6 +28,6 @@ function viaCEP(CEP){
         $('#viacep-logradouro').html(data['logradouro']);
         $('#viacep-bairro').html(data['bairro']);
         $('#viacep-estado').html(data['uf']);
-        $('#viacep-gmaps').html('<a href="https://www.google.com.br/maps/search/'+CEP+'" target="_blank">Google Maps</a>');
+        $('#viacep-gmaps').attr("href", 'https://www.google.com.br/maps/search/'+CEP+'');
     });
 }
